@@ -1,14 +1,18 @@
+{% load staticfiles %}
 <html>
 <head>
-<title>Django</title>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Neucha|Pacifico" rel="stylesheet">
+	<link rel="stylesheet" href="{% static 'css/blog.css' %}">
+	<title>Django</title>
 </head>
 <body>
-	<p>Hello, world!</p>
 	<div>
 	{% for post in posts %}
 		<h2><a href="">{{ post.title }}</a></h2>
-		<p>published: {{ post.published_date }}</p>
-		<p>{{ post.text|linebreaksbr }}</p>
+		<p class="post_preview_text">published: {{ post.published_date }}</p>
+		<p class="post_preview_text">{{ post.text|linebreaksbr }}</p>
 	{% endfor %}
 	</div>
 </body>

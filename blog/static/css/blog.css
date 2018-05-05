@@ -1,0 +1,17 @@
+BODY {
+	padding:10px;
+}
+H2 A {
+	text-decoration:none;
+	color:red;
+	font-family: 'Pacifico', cursive;
+}
+H2 A:hover {
+	text-decoration:none;
+	color:orange;
+}
+.post_preview_text {
+	font-family: 'Neucha', cursive;
+	font-size:12pt;
+	font-weight:300;
+}
