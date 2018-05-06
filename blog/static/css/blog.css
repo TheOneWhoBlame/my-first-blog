@@ -2,10 +2,12 @@ BODY {
 	padding-left:10px;
 	font-family: 'Neucha', cursive;
 }
+H2 {
+    font-family: 'Pacifico', cursive;
+}
 H2 A {
 	text-decoration:none;
 	color:red;
-	font-family: 'Pacifico', cursive;
 }
 H2 A:hover {
 	text-decoration:none;
@@ -15,10 +17,6 @@ H2 A:hover {
 	font-family: 'Neucha', cursive;
 	font-size:12pt;
 	font-weight:300;
-}
-.page-header {
-	//background-color:orange;
-	//padding: 20px;
 }
 #logo {
     margin-bottom: -100px;
@@ -33,42 +31,4 @@ H2 A:hover {
     background-color: white;
     color: black;
     font-size: small;
-}
-#head-logo {
-    text-align: center;
-}
-.post-preview {
-    border-radius: 5px;
-    padding: 10px;
-    background-color: white;
-    color: black;
-    margin-top: 20px;
-}
-.left-dates {
-    border: 2px solid grey;
-    border-radius: 5px;
-    padding: 10px;
-    margin-top: 20px;
-}
-.right-merch {
-    border: 2px solid grey;
-    border-radius: 5px;
-    padding: 10px;
-    margin-top: 20px;
-}
-#nav_head {
-    background-color: black;
-    border-bottom: 2px solid grey;
-    width: 100%;
-}
-#nav_foot {
-    background-color: white;
-    width: 100%;
-}
-.navbar {
-    display: inline-block;
-    text-align: center;
-}
-.sidebar_heads {
-    text-align: center;
 }
